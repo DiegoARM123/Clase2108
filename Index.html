@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exemplos JS</title>
+</head>
+
+<body>
+
+    <div>
+        <h1>Que hace JS</h1>
+
+        <p id="demo">JS cambia el contenido HTML</p>
+        <button type="button" onclick='document.getElementById ("demo").innerHTML="Hola Js"'>Haz Click</button>
+    </div>
+
+    <div>
+        <h2>Cuerpo JS</h2>
+        <p id="demo1">Js Cambia un parrafo</p>
+        <button type="button" onclick="myFunction2()">Probar</button>
+    </div>
+
+    <div>
+        <h3>Js Externo</h3>
+        <p id="demo2">Un Pàrrafo</p>
+        <button type="button" onclick='myFunction1()'>Probar 1</button>
+        <p>(myFunction almacena en archivos externos "Funciones.js")</p>
+    </div>
+
+    <div>
+        <h4>Js Externo</h4>
+        <p id="demo3">Otro Pàrrafo</p>
+        <button type="button" onclick="myFunction3()">Prueba nuevamente</button>
+    </div>
+
+    <div>
+        <h5>Que hace JS</h5>
+        <p>El script cambiara los valores de los atributos de la Imagen HTML</p>
+        <p>JS Cambia el valor del atributo src de la fuente de la imagen</p>
+        <button onclick='document.getElementById ("MiImagen").src="Image/pic_bulbon.gif"'>Prende Luz</button>
+        <img id="MiImagen" src="Image/pic_bulboff.gif" style="width:100px">
+        <button onclick='document.getElementById ("MiImagen").src="Image/pic_bulboff.gif"'>Apaga Luz</button>
+</div>
+
+<div>
+        <h6>Que puedo hacer con JS</h6>
+        <p id="demo4">JS cambia el estilo de un elemento HTML</p>
+        <button type="button" onclick="myFunction4()">Haga click</button>
+
+
+</div>
+
+<script src="JS/Funciones.js "></script>
+</body>
+</html>
